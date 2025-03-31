@@ -1,0 +1,35 @@
+{
+  "name": "flight-booking-system",
+  "version": "1.0.0",
+  "description": "Developing a node js backend application for interview purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gopikrsh/Flight-Booking-System.git"
+  },
+  "keywords": [],
+  "author": "Gopal Krishna.R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopikrsh/Flight-Booking-System/issues"
+  },
+  "homepage": "https://github.com/gopikrsh/Flight-Booking-System#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
