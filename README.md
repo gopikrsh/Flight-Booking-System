@@ -23,14 +23,19 @@ The Flight Booking System is a web application that allows users to search for f
 ## Installation
 
 1. **Clone the repository:**
-
    git clone https://github.com/gopikrsh/Flight-Booking-System
    cd Flight-Booking-System
 
 2. **Install dependencies:**
+   npm install
+   
+4. **Run the Project:**
+   npm start
+   
+## Testing
 
-    npm install
+1. **Install dependencies:**
+   npm install jest supertest
 
-3. **Install dependencies:**
-
-    npm start
+2. **Run Unit Test cases:**
+    npm test
